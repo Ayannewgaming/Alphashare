@@ -15,7 +15,7 @@ MONGO_URI = os.getenv("mongodb+srv://hvaanime3:Animehva8745@cluster0.bfp1p.mongo
 DATABASE_NAME = os.getenv("hvaanime3")
 
 # Channel Configuration
-DB_CHANNEL_ID = int(os.getenv("-1002473852673"))
+DB_CHANNEL_ID = int("-1002473852673")
 FORCE_SUB_CHANNEL = int(os.getenv("-1002465574847"))
 
 # Bot Information
