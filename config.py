@@ -7,7 +7,7 @@ load_dotenv()
 
 # Bot Configuration
 BOT_TOKEN = os.getenv("8045707286:AAHtg5U4la4cX1wAwnkwpz5nlqFvVtMvXmU")
-API_ID = int(os.getenv("28482353"))
+API_ID = int("28482353")
 API_HASH = os.getenv("9deacb35ebb702743bcae1f61dd23378")
 
 # Database Configuration
