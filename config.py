@@ -16,7 +16,7 @@ DATABASE_NAME = os.getenv("hvaanime3")
 
 # Channel Configuration
 DB_CHANNEL_ID = int("-1002473852673")
-FORCE_SUB_CHANNEL = int(os.getenv("-1002465574847"))
+FORCE_SUB_CHANNEL = int("-1002465574847")
 
 # Bot Information
 BOT_USERNAME = os.getenv("BOT_USERNAME")
