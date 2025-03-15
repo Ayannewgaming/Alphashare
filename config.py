@@ -6,17 +6,17 @@ from dotenv import load_dotenv
 load_dotenv()
 
 # Bot Configuration
-BOT_TOKEN = os.getenv("BOT_TOKEN")
-API_ID = int(os.getenv("API_ID"))
-API_HASH = os.getenv("API_HASH")
+BOT_TOKEN = os.getenv("8045707286:AAHtg5U4la4cX1wAwnkwpz5nlqFvVtMvXmU")
+API_ID = int(os.getenv("28482353"))
+API_HASH = os.getenv("9deacb35ebb702743bcae1f61dd23378")
 
 # Database Configuration
-MONGO_URI = os.getenv("MONGO_URI")
-DATABASE_NAME = os.getenv("DATABASE_NAME")
+MONGO_URI = os.getenv("mongodb+srv://hvaanime3:Animehva8745@cluster0.bfp1p.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
+DATABASE_NAME = os.getenv("hvaanime3")
 
 # Channel Configuration
-DB_CHANNEL_ID = int(os.getenv("DB_CHANNEL_ID"))
-FORCE_SUB_CHANNEL = int(os.getenv("FORCE_SUB_CHANNEL"))
+DB_CHANNEL_ID = int(os.getenv("-1002473852673"))
+FORCE_SUB_CHANNEL = int(os.getenv("-1002465574847"))
 
 # Bot Information
 BOT_USERNAME = os.getenv("BOT_USERNAME")
